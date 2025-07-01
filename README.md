@@ -26,7 +26,7 @@ run the app:
 node termiauth.mjs
 ```
 
-if you want me to make a gui version, just shout. if enough people ask, i’ll do it.
+ill make an iOS version if someone wants me too (also a sync feature) 
 
 ---
 
