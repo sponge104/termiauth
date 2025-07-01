@@ -1,33 +1,47 @@
+
+---
+
 # termiauth
-Terminal Based Authenticator
 
+terminal-based authenticator
 
-i was tired of these stupid authenticator apps so i made my own in javascript (cuz why the fuck not)
+i got tired of those clunky authenticator apps, so i made my own in javascript (because why the heck not).
 
-here just clone this repo or something 
+just clone this repo and get started:
 
-run this
+```bash
+git clone https://github.com/sponge104/termiauth.git  
+cd termiauth
+```
+
+install dependencies:
 
 ```bash
 npm install
 ```
 
+run the app:
 
-but if you want me to make it into a gui tell me or something because if enough people tell me i will do it
+```bash
+node termiauth.mjs
+```
 
+if you want me to make a gui version, just shout. if enough people ask, i’ll do it.
 
+---
 
-you can export this from oneauth idk about others i havent really tested those so contact me here if you wan't me to test them / implement them
+you can import exports from oneauth (haven’t tested others much yet). ping me on github if you want me to support more.
 
+no stupid tracking — just a minimal terminal authenticator app :)
 
-no stupid tracking just a minimal termiauth app :)
+---
 
-v1.0
+## version history
 
-the base thing with a passphrase
+* **v1.0** — the base app with passphrase protection
+* **v1.1** — added security question recovery for forgotten passphrases
+* **v1.2** — added hashed and salted storage so even if someone gets on your machine, your secrets stay safer \:d
 
-v1.1
+---
 
-i added a security question thing incase you forgot your passphrase 
-
-@sfdb on discord
+*feel free to open issues or pull requests on github if you want to chat or request features!*
