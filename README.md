@@ -26,8 +26,10 @@ run the app:
 node termiauth.mjs
 ```
 
-ill make an iOS version if someone wants me too (also a sync feature) 
-
+to import your codes from a txt  json(not fully supported) please move your file to the termiauth/ directory .txt formats are 
+```bash
+otpauth://totp/GitHub:Example?algorithm=SHA1&digits=6&issuer=GitHub&period=30&secret=SecretHere&icon=SVG%2FGithub.svg
+```
 ---
 
 you can import exports from oneauth (haven’t tested others much yet). ping me on github if you want me to support more.
@@ -40,7 +42,7 @@ no stupid tracking — just a minimal terminal authenticator app :)
 
 * **v1.0** — the base app with passphrase protection
 * **v1.1** — added security question recovery for forgotten passphrases
-* **v1.2** — added hashed and salted storage so even if someone gets on your machine, your secrets stay safer \:d
+* **v1.2** — added hashed and salted storage so even if someone gets on your machine, your secrets stay safer \:D
 
 ---
 
