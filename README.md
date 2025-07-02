@@ -34,6 +34,31 @@ otpauth://totp/GitHub:Example?algorithm=SHA1&digits=6&issuer=GitHub&period=30&se
 
 you can import exports from oneauth (haven’t tested others much yet). ping me on github if you want me to support more.
 
+
+
+i kinda forgot this you can make this globally by using this setup
+
+after installing go to package.json it should look something like this
+
+
+
+![image](https://github.com/user-attachments/assets/35db9f42-0fcf-4e19-aedc-79dfa4d33293)
+
+add a bin field after main like this
+
+```json
+
+  "bin":{
+    "termiauth": "./termiauth.mjs"
+  },
+```
+now it should look like this
+
+![image](https://github.com/user-attachments/assets/baac1881-6e00-4ab9-9788-e22995d9adef)
+
+now you can do termiauth anywhere in your pc just make sure the bin field is there (you dont need to adjust but if you need too adjust it)
+
+
 no stupid tracking — just a minimal terminal authenticator app :)
 
 ---
