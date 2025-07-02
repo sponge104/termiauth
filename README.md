@@ -56,8 +56,10 @@ now it should look like this
 
 ![image](https://github.com/user-attachments/assets/baac1881-6e00-4ab9-9788-e22995d9adef)
 
-now you can do termiauth anywhere in your pc just make sure the bin field is there (you dont need to adjust but if you need too adjust it)
-
+now you can run termiauth anywhere in your pc by just typing this in any terminal
+```bash
+termiauth
+```
 
 no stupid tracking — just a minimal terminal authenticator app :)
 
