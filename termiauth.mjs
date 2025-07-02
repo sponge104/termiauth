@@ -1,14 +1,24 @@
+#!/usr/bin/env node
+
 import inquirer from 'inquirer';
 import { authenticator } from 'otplib';
 import chalk from 'chalk';
 import fs from 'fs/promises';
 import path from 'path';
-import { URL } from 'url';
+import { fileURLToPath } from 'url';
 import clipboardy from 'clipboardy';
 import crypto from 'crypto';
 
-const DATA_FILE = path.resolve('./accounts.json');
-const CONFIG_FILE = path.resolve('./config.json');
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const DATA_FILE = path.join(__dirname, 'accounts.json');
+const CONFIG_FILE = path.join(__dirname, 'config.json');
+
+
+
+
 
 let accounts = [];
 let config = {
