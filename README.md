@@ -10,10 +10,10 @@ i got tired of those clunky authenticator apps, so i made my own in javascript (
 just clone this repo and get started:
 
 ```bash
-git clone https://github.com/sponge104/termiauth.git  
+git clone https://github.com/sponge104/termiauth.git
 cd termiauth
+npm install -g .
 ```
-
 install dependencies:
 
 ```bash
